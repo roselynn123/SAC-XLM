@@ -1,0 +1,26 @@
+# Training outputs and experiment tracking
+output*/
+**/output*/
+runs/
+**/runs/
+
+# Model checkpoints and generated binary data
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+*.pkl
+cached_*
+
+# Logs and Python caches
+*.log
+*log*.txt
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+._*
